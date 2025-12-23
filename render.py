@@ -15,10 +15,18 @@ def render_cv(language):
     # Create output directory
     os.makedirs(output_dir, exist_ok=True)
     
+    # Extract filename without extension from the YAML file
+    filename = os.path.splitext(yaml_file)[0]
+    
     print(f"🔨 Generating CV in {language.upper()}...")
     try:
         subprocess.run(
-            ["rendercv", "render", yaml_file, "--output-folder-name", output_dir],
+            ["rendercv", "render", yaml_file,
+             "--typst-path", f"{output_dir}/{filename}.typ",
+             "--pdf-path", f"{output_dir}/{filename}.pdf",
+             "--markdown-path", f"{output_dir}/{filename}.md",
+             "--html-path", f"{output_dir}/{filename}.html",
+             "--png-path", f"{output_dir}/{filename}"],
             check=True
         )
         print(f"✅ CV successfully generated in {output_dir}/")
