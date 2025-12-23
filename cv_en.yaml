@@ -1,67 +1,93 @@
 cv:
-  name: Your Name
-  location: City, Country
-  email: your.email@example.com
-  website: https://yourwebsite.com
+  name: Antonio Ruiz de la Torre
+  location: Málaga, Spain
+  email: mail@aruizdlt.com
+  website: https://aruizdlt.com
   social_networks:
     - network: LinkedIn
-      username: your-username
+      username: aruizdlt
     - network: GitHub
-      username: your-github
+      username: aruizdlt
 
   sections:
     Summary:
-      - Software Engineer with over X years of experience in full-stack development. Specialized in modern web technologies and scalable architectures.
+      - DevOps Engineer with over 3 years of experience optimizing processes and promoting continuous improvement. I have expertise in GCP, CI/CD, Kubernetes, Bash, Python, and Docker. I have demonstrated my ability to implement efficient pipelines and leverage automation to increase productivity. I have experience orchestrating cloud environments and optimizing deployment processes.
 
-    Work Experience:
-      - company: Company Name
-        position: Senior Developer
-        location: Madrid, Spain
-        start_date: 2020-01
+    Professional Experience:
+      - company: Freelance
+        position: Backend Developer
+        location: Remote
+        start_date: 2025-12
         end_date: present
         highlights:
-          - Led development of a platform that increased efficiency by 40%
-          - Implemented microservices architecture using Docker and Kubernetes
-          - Mentored a team of 5 junior developers
+          - Development of backend applications using Python and Node.js, improving data processing efficiency by 30%.
+          - Implementation of SQL and NoSQL databases to optimize data storage and retrieval.
+          - Collaboration with frontend teams to integrate RESTful APIs, improving end-user experience.
 
-      - company: Another Company
-        position: Full-Stack Developer
-        location: Barcelona, Spain
-        start_date: 2018-06
-        end_date: 2019-12
+      - company: Arelance - Indra
+        position: DevOps Engineer
+        location: Remote
+        start_date: 2025-03
+        end_date: 2025-08
         highlights:
-          - Developed RESTful APIs with Node.js and Express
-          - Created responsive user interfaces with React
-          - Optimized database queries reducing loading times by 60%
+          - Development of CI/CD pipelines from scratch using Jenkins, optimizing software delivery by over 95%.
+          - Design and implementation of a development environment for testing, improving team efficiency and facilitating software validation before production.
+          - Reduction of deployment times for applications on OpenShift 4 by 10% through the use of Helm.
+
+      - company: Solardrone
+        position: DevOps Engineer
+        location: Remote
+        start_date: 2023-07
+        end_date: 2025-01   
+        highlights:
+          - Implementation of CI/CD practices to improve software delivery efficiency, reducing errors and delivery times by over 90%.
+          - Optimization of resources on Google Cloud, reducing operational costs by 15%.
+          - Creation, deployment and maintenance of APIs using Python and Docker, increasing development speed by 70%.
+          - Use of Ansible and Terraform to improve service scalability by 60%.
+      
+      - company: Devoteam
+        position: Oracle DBA / DevOps Engineer
+        location: Remote
+        start_date: 2021-10
+        end_date: 2022-12
+        highlights:
+          - Design and optimization of CI/CD processes in Jenkins, reducing application deployment times by 30%.
+          - Automation of Oracle Database deployment and patching using Ansible, reducing maintenance time by 70%.
+          - Configuration and maintenance of Oracle Database backups, ensuring data availability at 99.9%.
+          - Migration of projects to Kubernetes OpenShift 4.
+
+      - company: ViewNext
+        position: Junior Backend Developer
+        location: Málaga, Spain
+        start_date: 2018-11
+        end_date: 2019-08
+        highlights:
+          - Design and implementation in JavaScript of BPMN workflow diagrams.
+          - Monitoring of Oracle Databases and PL/SQL programming.
+          - Correction of Bash processes.
+      
 
     Education:
-      - institution: Polytechnic University
+      - institution: University of Málaga
         area: Computer Engineering
         degree: Bachelor
-        start_date: 2014-09
-        end_date: 2018-06
-        location: Madrid, Spain
+        start_date: 2014
+        location: Málaga, Spain
         highlights:
-          - "GPA: 8.5/10"
-          - "Final project: Business management system"
+          - "Honors in Systems Information for Internet"
+          - "Honors in Project Planning and Risk Analysis"
 
     Skills:
       - label: Programming Languages
-        details: Python, JavaScript, TypeScript, Java, SQL
-      - label: Frameworks & Libraries
-        details: React, Node.js, Django, Spring Boot, Express
-      - label: DevOps & Tools
-        details: Docker, Kubernetes, Git, CI/CD, AWS, Azure
+        details: Python, JavaScript, SQL, Bash, PL/SQL
+      - label: Frameworks and Libraries
+        details: Node.js, Django, Express, FastAPI
+      - label: Databases
+        details: MySQL, PostgreSQL, MongoDB, Oracle, Firebase
+      - label: DevOps and Tools
+        details: Docker, Kubernetes, Git, CI/CD, AWS, GCP, Jenkins, Ansible, Terraform, GitHub Actions
       - label: Languages
-        details: Spanish (Native), English (Fluent - C1)
-
-    Projects:
-      - name: E-commerce System
-        date: 2022
-        highlights:
-          - Built a complete e-commerce platform
-          - Tech stack used - React, Node.js, MongoDB, Stripe
-          - Over 10,000 active users
+        details: Spanish (Native), English (Fluent - B2 APTIS)
 
 design:
   theme: classic
@@ -100,4 +126,4 @@ locale:
     - Dec
 
 rendercv_settings:
-  date: 2024-12-22
+  date: 2025-12-23
