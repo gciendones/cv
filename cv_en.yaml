@@ -1,105 +1,106 @@
 cv:
-  name: Antonio Ruiz de la Torre
+  name: Guillermo Ciendones
   location: Málaga, Spain
-  email: mail@aruizdlt.com
-  website: https://aruizdlt.com
+  email: gciendones94@gmail.com
   social_networks:
     - network: LinkedIn
-      username: aruizdlt
-    - network: GitHub
-      username: aruizdlt
+      username: guillermo-ciendones
 
   sections:
-    Summary:
-      - DevOps Engineer with over 3 years of experience optimizing processes and promoting continuous improvement. I have expertise in GCP, CI/CD, Kubernetes, Bash, Python, and Docker. I have demonstrated my ability to implement efficient pipelines and leverage automation to increase productivity. I have experience orchestrating cloud environments and optimizing deployment processes.
+    PROFESSIONAL SUMMARY:
+      - Oracle APEX & PL/SQL Developer with 4+ years of experience designing and maintaining enterprise databasedrivenweb applications. Strong expertise in Oracle Database 19c/21c, complex PL/SQL package development,query optimization, and performance tuning. Experienced in integrating Oracle systems with third-party servicesand supporting production environments in cloud-based infrastructures (OCI).
 
-    Professional Experience:
-      - company: Freelance
-        position: Backend Developer
+    PROFESSIONAL EXPERIENCE:
+      - company: Malthus Darwin
+        position: Oracle APEX & PL/SQL Developer
         location: Remote
-        start_date: 2025-12
+        start_date: 2024-12
         end_date: present
         highlights:
-          - Development of backend applications using Python and Node.js, improving data processing efficiency by 30%.
-          - Implementation of SQL and NoSQL databases to optimize data storage and retrieval.
-          - Collaboration with frontend teams to integrate RESTful APIs, improving end-user experience.
+          - Design and develop enterprise Oracle APEX applications supporting business operations.
+          - Develop and maintain complex PL/SQL packages, procedures, and triggers.
+          - Optimize SQL queries to improve performance and reduce execution time.
+          - Support production environments, troubleshooting database and application issues.
+          - Collaborate with cross-functional teams to implement scalable database solutions.
 
-      - company: Arelance - Indra
-        position: DevOps Engineer
-        location: Remote
-        start_date: 2025-03
-        end_date: 2025-08
-        highlights:
-          - Development of CI/CD pipelines from scratch using Jenkins, optimizing software delivery by over 95%.
-          - Design and implementation of a development environment for testing, improving team efficiency and facilitating software validation before production.
-          - Reduction of deployment times for applications on OpenShift 4 by 10% through the use of Helm.
-
-      - company: Solardrone
-        position: DevOps Engineer
-        location: Remote
-        start_date: 2023-07
-        end_date: 2025-01   
-        highlights:
-          - Implementation of CI/CD practices to improve software delivery efficiency, reducing errors and delivery times by over 90%.
-          - Optimization of resources on Google Cloud, reducing operational costs by 15%.
-          - Creation, deployment and maintenance of APIs using Python and Docker, increasing development speed by 70%.
-          - Use of Ansible and Terraform to improve service scalability by 60%.
-      
-      - company: Devoteam
-        position: Oracle DBA / DevOps Engineer
-        location: Remote
-        start_date: 2021-10
-        end_date: 2022-12
-        highlights:
-          - Design and optimization of CI/CD processes in Jenkins, reducing application deployment times by 30%.
-          - Automation of Oracle Database deployment and patching using Ansible, reducing maintenance time by 70%.
-          - Configuration and maintenance of Oracle Database backups, ensuring data availability at 99.9%.
-          - Migration of projects to Kubernetes OpenShift 4.
-
-      - company: ViewNext
-        position: Junior Backend Developer
+      - company: Novoshore Europe SL
+        position: Oracle APEX & PL/SQL Developer
         location: Málaga, Spain
-        start_date: 2018-11
-        end_date: 2019-08
+        start_date: 2021-11
+        end_date: 2024-11
         highlights:
-          - Design and implementation in JavaScript of BPMN workflow diagrams.
-          - Monitoring of Oracle Databases and PL/SQL programming.
-          - Correction of Bash processes.
+          - Developed and maintained 6+ Oracle APEX applications across multiple business domains.
+          - Built backend PL/SQL logic for ERP, insurance, logistics, and GDPR compliance systems.
+          - Integrated Oracle applications with third-party services and external systems.
+          - Performed query optimization and database performance tuning in Oracle 19c/21c environments.
+          - Delivered enhancements, incident management, and system refactoring in production systems.
       
-
-    Education:
+    EDUCATION:
       - institution: University of Málaga
-        area: Computer Engineering
-        degree: Bachelor
-        start_date: 2014
+        area: Software Engineering
+        degree: Bachelor's Degree
+        start_date: 2013
+        end_date: 2020
         location: Málaga, Spain
         highlights:
-          - "Honors in Systems Information for Internet"
-          - "Honors in Project Planning and Risk Analysis"
+          - Specialized in software quality (ISO \- 9001, ISO \- 25000).
 
-    Skills:
-      - label: Programming Languages
-        details: Python, JavaScript, SQL, Bash, PL/SQL
-      - label: Frameworks and Libraries
-        details: Node.js, Django, Express, FastAPI
+    TECHNICAL SKILLS:
       - label: Databases
-        details: MySQL, PostgreSQL, MongoDB, Oracle, Firebase
-      - label: DevOps and Tools
-        details: Docker, Kubernetes, Git, CI/CD, AWS, GCP, Jenkins, Ansible, Terraform, GitHub Actions
+        details: Oracle Database 19c, 21c.
       - label: Languages
-        details: Spanish (Native), English (Fluent - B2 APTIS)
+        details: SQL, PL/SQL, JavaScript.
+      - label: Frameworks
+        details: Oracle APEX.
+      - label: Web Technologies
+        details: HTML, CSS, jQuery.
+      - label: Cloud
+        details: Oracle Cloud Infrastructure (OCI)
+      - label: Concepts
+        details: Query Optimization, Performance Tuning, Data Modeling, Indexing, Database Security.
+      - label: Tools
+        details: SQL Developer, Data Modeler.
+      - label: Methodologies
+        details: Agile, DevOps environments.
+
+    CERTIFICATIONS:
+      - "[1Z0-770 Oracle APEX Cloud Developer Professional](https://catalog-education.oracle.com/ords/certview/sharebadge?id=886DD829D2E7450D711C9C26855C2D3B73110A3D46ECE873FB88BF3F098A205F)"
+      - "[1Z0-1085-23 Oracle Cloud Infrastructure 2023 Certified Foundations Associate](https://catalog-education.oracle.com/ords/certview/sharebadge?id=A94C4878B409A05F25BED5C825377B936E843B3A40D9FCEA821388083FEE83CC)"
+      - "[1Z0-1105-23 Oracle Cloud Data Management 2023 Certified Foundations Associate](https://catalog-education.oracle.com/ords/certview/sharebadge?id=164B0CEF153DA9DA27CAE29987C9834872A359E571A5D48FF3DE8009D27DDE73)"
+
+    KEY PROJECTS:
+      - Laboratory Management ERP System (enhancements and refactoring).
+      - Event Management Application (built from scratch).
+      - Insurance & Surety Management Platform (built from scratch).
+      - GDPR Database Compliance Scanning Tool.
+      - Capital & Telecommunications Infrastructure System.
+      - Logistics & International Shipping Management Application.
+      - "Technologies used: Oracle APEX, PL/SQL, SQL, JavaScript, jQuery, OCI, Oracle 19c/21c."
+
+    LANGUAGES:
+      - "Spanish: Native."
+      - "English: Full Professional proficiency (CEFR C1)."
+
+    LINKS:
+      - "[Cover Letter](https://drive.google.com/file/d/1i0V4g4QKMkiG-6G02cn1RsNebxq4BjOK/view)"
+      - "[Career Timeline](https://drive.google.com/file/d/1kU1vTB4uwPSAYL00f1YnJgOrb2bd0P45/view)"
+      - "[Professional Portfolio](https://docs.google.com/presentation/d/1I2oy3sgx5-RwHsMQvyrqaPBRSlZLl8eX/edit?slide=id.p1#slide=id.p1)"
+
 
 design:
-  theme: classic
+  theme: engineeringclassic
   page:
     size: a4
     top_margin: 2cm
     bottom_margin: 2cm
     left_margin: 2cm
     right_margin: 2cm
+  header:
+    alignment: center
   colors:
-    name: rgb(0, 79, 144)
-    section_titles: rgb(0, 79, 144)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
     links: rgb(0, 79, 144)
   typography:
     font_family: Source Sans 3
