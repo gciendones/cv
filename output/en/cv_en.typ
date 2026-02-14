@@ -3,9 +3,9 @@
 
 // Apply the rendercv template with custom configuration
 #show: rendercv.with(
-  name: "Antonio Ruiz de la Torre",
-  footer: context { [#emph[Antonio Ruiz de la Torre -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Dec 2025] ],
+  name: "Guillermo Ciendones",
+  footer: context { [#emph[Guillermo Ciendones -- #str(here().page())\/#str(counter(page).final().first())]] },
+  top-note: [ #emph[Last updated in Feb 2026] ],
   locale-catalog-language: "en",
   page-size: "a4",
   page-top-margin: 2cm,
@@ -15,10 +15,10 @@
   page-show-footer: true,
   page-show-top-note: true,
   colors-body: rgb(0, 0, 0),
-  colors-name: rgb(0, 79, 144),
+  colors-name: rgb(0, 0, 0),
   colors-headline: rgb(0, 79, 144),
-  colors-connections: rgb(0, 79, 144),
-  colors-section-titles: rgb(0, 79, 144),
+  colors-connections: rgb(0, 0, 0),
+  colors-section-titles: rgb(0, 0, 0),
   colors-links: rgb(0, 79, 144),
   colors-footer: rgb(128, 128, 128),
   colors-top-note: rgb(128, 128, 128),
@@ -39,10 +39,10 @@
   typography-small-caps-headline: false,
   typography-small-caps-connections: false,
   typography-small-caps-section-titles: false,
-  typography-bold-name: true,
+  typography-bold-name: false,
   typography-bold-headline: false,
   typography-bold-connections: false,
-  typography-bold-section-titles: true,
+  typography-bold-section-titles: false,
   links-underline: false,
   links-show-external-link-icon: false,
   header-alignment: center,
@@ -55,7 +55,7 @@
   header-connections-display-urls-instead-of-usernames: false,
   header-connections-separator: "",
   header-connections-space-between-connections: 0.5cm,
-  section-titles-type: "with_partial_line",
+  section-titles-type: "with_full_line",
   section-titles-line-thickness: 0.5pt,
   section-titles-space-above: 0.5cm,
   section-titles-space-below: 0.3cm,
@@ -66,169 +66,153 @@
   entries-side-space: 0.2cm,
   entries-space-between-columns: 0.1cm,
   entries-allow-page-break: false,
-  entries-short-second-row: true,
+  entries-short-second-row: false,
   entries-summary-space-left: 0cm,
-  entries-summary-space-above: 0cm,
+  entries-summary-space-above: 0.12cm,
   entries-highlights-bullet:  "•" ,
   entries-highlights-nested-bullet:  "•" ,
-  entries-highlights-space-left: 0.15cm,
-  entries-highlights-space-above: 0cm,
-  entries-highlights-space-between-items: 0cm,
+  entries-highlights-space-left: 0cm,
+  entries-highlights-space-above: 0.12cm,
+  entries-highlights-space-between-items: 0.12cm,
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
-    year: 2025,
-    month: 12,
-    day: 23,
+    year: 2026,
+    month: 2,
+    day: 14,
   ),
 )
 
 
-= Antonio Ruiz de la Torre
+= Guillermo Ciendones
 
 #connections(
   [#connection-with-icon("location-dot")[Málaga, Spain]],
-  [#link("mailto:mail@aruizdlt.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[mail\@aruizdlt.com]]],
-  [#link("https://aruizdlt.com/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[aruizdlt.com]]],
-  [#link("https://linkedin.com/in/aruizdlt", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[aruizdlt]]],
-  [#link("https://github.com/aruizdlt", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[aruizdlt]]],
+  [#link("mailto:gciendones94@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[gciendones94\@gmail.com]]],
+  [#link("https://linkedin.com/in/guillermo-ciendones", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[guillermo-ciendones]]],
 )
 
 
-== Summary
+== PROFESSIONAL SUMMARY
 
-DevOps Engineer with over 3 years of experience optimizing processes and promoting continuous improvement. I have expertise in GCP, CI\/CD, Kubernetes, Bash, Python, and Docker. I have demonstrated my ability to implement efficient pipelines and leverage automation to increase productivity. I have experience orchestrating cloud environments and optimizing deployment processes.
+Oracle APEX & PL\/SQL Developer with 4+ years of experience designing and maintaining enterprise databasedrivenweb applications. Strong expertise in Oracle Database 19c\/21c, complex PL\/SQL package development,query optimization, and performance tuning. Experienced in integrating Oracle systems with third-party servicesand supporting production environments in cloud-based infrastructures (OCI).
 
-== Professional Experience
-
-#regular-entry(
-  [
-    #strong[Freelance], Backend Developer
-    
-    - Development of backend applications using Python and Node.js, improving data processing efficiency by 30\%.
-    
-    - Implementation of SQL and NoSQL databases to optimize data storage and retrieval.
-    
-    - Collaboration with frontend teams to integrate RESTful APIs, improving end-user experience.
-    
-  ],
-  [
-    Remote
-    
-    Dec 2025 – present
-    
-  ],
-)
+== PROFESSIONAL EXPERIENCE
 
 #regular-entry(
   [
-    #strong[Arelance - Indra], DevOps Engineer
-    
-    - Development of CI\/CD pipelines from scratch using Jenkins, optimizing software delivery by over 95\%.
-    
-    - Design and implementation of a development environment for testing, improving team efficiency and facilitating software validation before production.
-    
-    - Reduction of deployment times for applications on OpenShift 4 by 10\% through the use of Helm.
+    #strong[Oracle APEX & PL\/SQL Developer], Malthus Darwin -- Remote
     
   ],
   [
-    Remote
+    Dec 2024 – present
     
-    Mar 2025 – Aug 2025
+  ],
+  main-column-second-row: [
+    - Design and develop enterprise Oracle APEX applications supporting business operations.
+    
+    - Develop and maintain complex PL\/SQL packages, procedures, and triggers.
+    
+    - Optimize SQL queries to improve performance and reduce execution time.
+    
+    - Support production environments, troubleshooting database and application issues.
+    
+    - Collaborate with cross-functional teams to implement scalable database solutions.
     
   ],
 )
 
 #regular-entry(
   [
-    #strong[Solardrone], DevOps Engineer
-    
-    - Implementation of CI\/CD practices to improve software delivery efficiency, reducing errors and delivery times by over 90\%.
-    
-    - Optimization of resources on Google Cloud, reducing operational costs by 15\%.
-    
-    - Creation, deployment and maintenance of APIs using Python and Docker, increasing development speed by 70\%.
-    
-    - Use of Ansible and Terraform to improve service scalability by 60\%.
+    #strong[Oracle APEX & PL\/SQL Developer], Novoshore Europe SL -- Málaga, Spain
     
   ],
   [
-    Remote
+    Nov 2021 – Nov 2024
     
-    Jul 2023 – Jan 2025
+  ],
+  main-column-second-row: [
+    - Developed and maintained 6+ Oracle APEX applications across multiple business domains.
+    
+    - Built backend PL\/SQL logic for ERP, insurance, logistics, and GDPR compliance systems.
+    
+    - Integrated Oracle applications with third-party services and external systems.
+    
+    - Performed query optimization and database performance tuning in Oracle 19c\/21c environments.
+    
+    - Delivered enhancements, incident management, and system refactoring in production systems.
     
   ],
 )
 
-#regular-entry(
-  [
-    #strong[Devoteam], Oracle DBA \/ DevOps Engineer
-    
-    - Design and optimization of CI\/CD processes in Jenkins, reducing application deployment times by 30\%.
-    
-    - Automation of Oracle Database deployment and patching using Ansible, reducing maintenance time by 70\%.
-    
-    - Configuration and maintenance of Oracle Database backups, ensuring data availability at 99.9\%.
-    
-    - Migration of projects to Kubernetes OpenShift 4.
-    
-  ],
-  [
-    Remote
-    
-    Oct 2021 – Dec 2022
-    
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[ViewNext], Junior Backend Developer
-    
-    - Design and implementation in JavaScript of BPMN workflow diagrams.
-    
-    - Monitoring of Oracle Databases and PL\/SQL programming.
-    
-    - Correction of Bash processes.
-    
-  ],
-  [
-    Málaga, Spain
-    
-    Nov 2018 – Aug 2019
-    
-  ],
-)
-
-== Education
+== EDUCATION
 
 #education-entry(
   [
-    #strong[University of Málaga], Computer Engineering
-    
-    - Honors in Systems Information for Internet
-    
-    - Honors in Project Planning and Risk Analysis
+    #strong[University of Málaga], Bachelor's Degree in Software Engineering -- Málaga, Spain
     
   ],
   [
-    Málaga, Spain
-    
-    2014 – present
+    2013 – 2020
     
   ],
-  degree-column: [
-    #strong[Bachelor]
+  main-column-second-row: [
+    - Specialized in software quality (ISO - 9001, ISO - 25000).
+    
   ],
 )
 
-== Skills
+== TECHNICAL SKILLS
 
-#strong[Programming Languages:] Python, JavaScript, SQL, Bash, PL\/SQL
+#strong[Databases:] Oracle Database 19c, 21c.
 
-#strong[Frameworks and Libraries:] Node.js, Django, Express, FastAPI
+#strong[Languages:] SQL, PL\/SQL, JavaScript.
 
-#strong[Databases:] MySQL, PostgreSQL, MongoDB, Oracle, Firebase
+#strong[Frameworks:] Oracle APEX.
 
-#strong[DevOps and Tools:] Docker, Kubernetes, Git, CI\/CD, AWS, GCP, Jenkins, Ansible, Terraform, GitHub Actions
+#strong[Web Technologies:] HTML, CSS, jQuery.
 
-#strong[Languages:] Spanish (Native), English (Fluent - B2 APTIS)
+#strong[Cloud:] Oracle Cloud Infrastructure (OCI)
+
+#strong[Concepts:] Query Optimization, Performance Tuning, Data Modeling, Indexing, Database Security.
+
+#strong[Tools:] SQL Developer, Data Modeler.
+
+#strong[Methodologies:] Agile, DevOps environments.
+
+== CERTIFICATIONS
+
+#link("https://catalog-education.oracle.com/ords/certview/sharebadge?id=886DD829D2E7450D711C9C26855C2D3B73110A3D46ECE873FB88BF3F098A205F")[1Z0-770 Oracle APEX Cloud Developer Professional]
+
+#link("https://catalog-education.oracle.com/ords/certview/sharebadge?id=A94C4878B409A05F25BED5C825377B936E843B3A40D9FCEA821388083FEE83CC")[1Z0-1085-23 Oracle Cloud Infrastructure 2023 Certified Foundations Associate]
+
+#link("https://catalog-education.oracle.com/ords/certview/sharebadge?id=164B0CEF153DA9DA27CAE29987C9834872A359E571A5D48FF3DE8009D27DDE73")[1Z0-1105-23 Oracle Cloud Data Management 2023 Certified Foundations Associate]
+
+== KEY PROJECTS
+
+Laboratory Management ERP System (enhancements and refactoring).
+
+Event Management Application (built from scratch).
+
+Insurance & Surety Management Platform (built from scratch).
+
+GDPR Database Compliance Scanning Tool.
+
+Capital & Telecommunications Infrastructure System.
+
+Logistics & International Shipping Management Application.
+
+Technologies used: Oracle APEX, PL\/SQL, SQL, JavaScript, jQuery, OCI, Oracle 19c\/21c.
+
+== LANGUAGES
+
+Spanish: Native.
+
+English: Full Professional proficiency (CEFR C1).
+
+== LINKS
+
+#link("https://drive.google.com/file/d/1i0V4g4QKMkiG-6G02cn1RsNebxq4BjOK/view")[Cover Letter]
+
+#link("https://drive.google.com/file/d/1kU1vTB4uwPSAYL00f1YnJgOrb2bd0P45/view")[Career Timeline]
+
+#link("https://docs.google.com/presentation/d/1I2oy3sgx5-RwHsMQvyrqaPBRSlZLl8eX/edit?slide=id.p1#slide=id.p1")[Professional Portfolio]
